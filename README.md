@@ -21,13 +21,13 @@ Clone the repository:
 Create a virtual environment (recommended):
 
 
-    python -m venv venv
+    python3 -m venv venv      # On Windows, use: python -m venv venv 
     source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 
 Install dependencies:
 
 
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 
 Configure the database settings in settings.py:
 
